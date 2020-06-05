@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: node:11.10.1
 
-    working_directory: ~/repo
+    working_directory: ~/repo/starter
 
     steps:
       - checkout
